@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formula 1</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="styles.css">
+   
+
+</head>
+<body>
+  <header class="cabeçalho">
+    <div class=caixa>
+        <input type="checkbox" id="menu" class="caixa-botao">
+        <label for="menu">
+    <span class="cabeçalho-menu-amburguer caixa-imagem"></span></label>
+    <ul class="lista-menu">
+        <li class="lista-menu-titulo"> equipes</li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link"> ferrari</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link"> mercedes bens </a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link"> maclauren</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">redbull</a>
+        </li>
+    </ul>
+    <a href="#"><img class=caixa-imagem src="carrinho de compras.svg" alt="carrinho de compras"></a></div>
+   
+    <div class=caixa><a href="#"><li class="cadastro">CADASTRO</li></a><a href="#"><img  class=caixa-imagem src="home.svg" alt="home"></a>
+    <a href="#" ><img  class=caixa-imagem src="meus favoritos.svg" alt="meus favoritos"></a></div>
+</header>
+<section class="banner">
+    <h2 class="banner-titulo"> FORMULA 1</h2>
+    <p class="banner-texto"> Saiba mais sobre as noticias sobre a formula 1</p>
+    <input type="search" class="banner-pesquisa" 
+   placeholder="Qual será seu esporte escolhido?">
+</section>
+<section class="carrossel">
+    <h2 class="carrossel-titulo"> PRINCIPAIS NOTÍCIAS</h2>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="f1.webp" alt="formula 1"></div>
+      <div class="swiper-slide"><img src="f1.png" alt="equipes"></div>
+      <div class="swiper-slide"><img src="f1.webpn" alt="corridas"></div>
+      <div class="swiper-slide"><img src="f1.webpg" alt="carro"></div>
+      <div class="swiper-slide"><img src="f1.jpg" alt="mercedes bens"></div>
+      <div class="swiper-slide"><img src="f1.gnd" alt="> ferrari/div>
+    </div>
+   
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="card">
+                <!-- 1º linha -->
+      <div class="card-descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <h3 class="decrição-titulo"> SAIBA MAIS SOBRE AS CORRIDAS,
+              SE INFORME SOBRE O ÚLTIMO GP DO MÉXICOs.</h3>
+
+             <h2 Class="descrição-piscina"> EQUIPES E PILOTOS. </h2>
+
+             <p class="descriçã-texto">FIQUE POR DENTRO DAS CORRIDAS. </p> </div>
+             <!-- 2º coluna -->
+              <img src="piscina.webp" class="descrição-imagem">
+      </div>
+      <!-- 2º linha -->
+       <div class="card-botões">
+         <!-- 1º coluna -->
+       
+        <!-- 2º coluna -->
+        
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+</section>
+<section class="tópicos">
+  <h2 class= "tópicos-titulo"> TÓPICOS VIZITADOS RECENTEMENTE</h2>
+  <ul class="tópicos-lista">
+<li class="tópicos-item"> <a href="#" class="tópicos-link">FERRARI</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">MERCEDES BENS</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">MACLAUREN</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">REDBULL</a></li>
+
+
+  </ul>
+
+</section>
+<section class="contato">
+<h2 class="contato-titulo">Fique por dentro das novidades</h2>
+<p class="contato-texto">atualizações, noticías e outros</p>
+<input type="email" placeholder="Cadastre seu e-mail" class="contato-email">
+</section>
+<hr />
+
+<footer class="rodapé"><a href="https://wa.me/qr/ML5S65MCJPAGJ1"><h2 class="rodapé-titulo">WHATSAPP</h2></a></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script> const swiper = new Swiper('.swiper', {
+    spaceBetween: 10, slidesPerView: 3,
+    pagination: { el: '.swiper-pagination',
+        type: 'bullets',},
+    });</script>
+</body>
+</html>
